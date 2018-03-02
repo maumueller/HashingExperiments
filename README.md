@@ -12,6 +12,14 @@ The following hash functions are compared:
 - Tabulation + Universal hashing (ADW)
 - Murmur3
 
+## Results
+
+| Number of keys inserted | Tabulation (1 Byte Characters) | Tabulation (2 Bytes Characters) | Murmur3 | 3-independent Hashing | Tabulation + Universal |
+|---|---|---|---|---|---|
+| **4194304** | 286.32 ms | 293.20 ms | 312.13 ms | 375.00 ms | 510.35 ms
+
+The numbers show the average time it took to insert around 4 million keys into the hash table using the specific hashing scheme see. (Threshold set very close to the theoretical limit at 49.995% load.) See the [thesis](http://pkqs.net/~tre/aumueller_dissertation.pdf) for more results and details.
+
 ## Dependencies
 
 
