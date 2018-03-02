@@ -1,7 +1,8 @@
 # Performance of different hash functions in Cuckoo Hashing
 
 Source code used in the hashing experiments of the thesis [On the Analysis of
-Two Randomized Algorithms: Multi-Pivot Quicksort and Efficient Hash Functions](http://pkqs.net/~tre/aumueller_dissertation.pdf).
+Two Randomized Algorithms: Multi-Pivot Quicksort and Efficient Hash Functions](http://pkqs.net/~tre/aumueller_dissertation.pdf). The code measures running time and 
+cache behavior of the constructions, more cpu measures can be easily added.
 
 ## Hashing Functions
 
